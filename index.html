@@ -2,371 +2,371 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Refined Estates — Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Refined Estates — Portfolio</title>
 
-    <!-- Google fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Poppins:wght@300;400;600&display=swap"
-        rel="stylesheet">
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">>
-    <link href="./assets/css/style.css" rel="stylesheet">
+  <!-- Bootstrap icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <main>
-        <!-- TOPBAR -->
-        <div class="topbar">
-            <div class="d-flex align-items-center gap-3">
-                <div class="brand">REALWORLD <small>ESTATES</small></div>
-                <div class="muted d-none d-sm-block" style="font-size:.9rem">Luxury real estate & portfolio</div>
+  <main>
+    <!-- TOPBAR -->
+    <div class="topbar">
+      <div class="d-flex align-items-center gap-3">
+        <div class="brand">REALWORLD <small>ESTATES</small></div>
+        <div class="muted d-none d-sm-block" style="font-size:.9rem">Luxury real estate & portfolio</div>
+      </div>
+
+      <nav class="nav-links d-none d-md-block" aria-label="Primary navigation">
+        <a href="#picks">Top Picks</a>
+        <a href="#featured">Featured</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <!-- HERO -->
+    <div class="hero-wrap" role="region" aria-label="Hero">
+      <header class="hero" id="hero" style="background-image: url('./assets/img/hotel_img_4.jpg');">
+        <div class="hero-inner">
+          <div class="eyebrow">Explore a diverse selection of premium listings</div>
+          <h1 class="hero-title">Discover the top real estate options<br>and turn your vision into reality
+          </h1>
+          <p class="hero-sub">Elevate your lifestyle with our luxury residences — unmatched comfort and
+            sophisticated design in every home.</p>
+
+          <form class="hero-search" role="search" aria-label="Property search">
+            <div class="filter-item" tabindex="-1">
+              <label class="visually-hidden" for="category">Category</label>
+              <select id="category" aria-label="Category">
+                <option value="rent">Rent or Purchase</option>
+                <option value="purchase">Purchase</option>
+                <option value="rent-only">Rent</option>
+              </select>
             </div>
 
-            <nav class="nav-links d-none d-md-block" aria-label="Primary navigation">
-                <a href="#picks">Top Picks</a>
-                <a href="#featured">Featured</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
-            </nav>
+            <div class="filter-item" tabindex="-1">
+              <label class="visually-hidden" for="location">Location</label>
+              <select id="location" aria-label="Location">
+                <option value="nyc">New York City</option>
+                <option value="sf">San Francisco</option>
+                <option value="miami">Miami</option>
+              </select>
+            </div>
+
+            <div class="filter-item" tabindex="-1">
+              <label class="visually-hidden" for="type">Type</label>
+              <select id="type" aria-label="Type">
+                <option value="property">Property</option>
+                <option value="condo">Condo</option>
+                <option value="villa">Villa</option>
+              </select>
+            </div>
+
+            <div class="filter-item" tabindex="-1">
+              <label class="visually-hidden" for="price">Price</label>
+              <select id="price" aria-label="Price">
+                <option value="usd">USD per Month</option>
+                <option value="usd-sale">USD Sale</option>
+              </select>
+            </div>
+
+            <button class="search-btn" type="submit" aria-label="Search properties"><i
+                class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </header>
+    </div>
+
+    <!-- STATS + TOP PICKS -->
+    <section id="picks" class="section" aria-label="Statistics and Top Picks">
+      <div class="row align-items-center gx-4">
+        <div class="col-lg-6 order-2 order-lg-1">
+          <div class="d-lg-flex align-items-center gap-4">
+            <div class="stats-grid" aria-hidden="false">
+              <div class="stat-item">
+                <div class="stat-num">1500+</div>
+                <div class="stat-label">Project Finished</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">950+</div>
+                <div class="stat-label">Global Customer</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">235+</div>
+                <div class="stat-label">Ready Units</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">$50M+</div>
+                <div class="stat-label">Generating Income</div>
+              </div>
+            </div>
+
+            <div class="d-none d-lg-block ms-3 intro-copy">
+              <h3 class="section-subtitle" style="font-weight:800;margin-bottom:10px;">Top Picks</h3>
+              <p class="muted">Hand-picked premium homes — professional photos, curated recommendations
+                for discerning buyers.</p>
+            </div>
+          </div>
         </div>
 
-        <!-- HERO -->
-        <div class="hero-wrap" role="region" aria-label="Hero">
-            <header class="hero" id="hero" style="background-image: url('./assets/img/hotel_img_4.jpg');">
-                <div class="hero-inner">
-                    <div class="eyebrow">Explore a diverse selection of premium listings</div>
-                    <h1 class="hero-title">Discover the top real estate options<br>and turn your vision into reality
-                    </h1>
-                    <p class="hero-sub">Elevate your lifestyle with our luxury residences — unmatched comfort and
-                        sophisticated design in every home.</p>
+        <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
+          <div class="hero-feature-img rounded-lg">
+            <img src="./assets/img/hotel_img_2.jpg" alt="feature house" />
+          </div>
+        </div>
+      </div>
 
-                    <form class="hero-search" role="search" aria-label="Property search">
-                        <div class="filter-item" tabindex="-1">
-                            <label class="visually-hidden" for="category">Category</label>
-                            <select id="category" aria-label="Category">
-                                <option value="rent">Rent or Purchase</option>
-                                <option value="purchase">Purchase</option>
-                                <option value="rent-only">Rent</option>
-                            </select>
-                        </div>
-
-                        <div class="filter-item" tabindex="-1">
-                            <label class="visually-hidden" for="location">Location</label>
-                            <select id="location" aria-label="Location">
-                                <option value="nyc">New York City</option>
-                                <option value="sf">San Francisco</option>
-                                <option value="miami">Miami</option>
-                            </select>
-                        </div>
-
-                        <div class="filter-item" tabindex="-1">
-                            <label class="visually-hidden" for="type">Type</label>
-                            <select id="type" aria-label="Type">
-                                <option value="property">Property</option>
-                                <option value="condo">Condo</option>
-                                <option value="villa">Villa</option>
-                            </select>
-                        </div>
-
-                        <div class="filter-item" tabindex="-1">
-                            <label class="visually-hidden" for="price">Price</label>
-                            <select id="price" aria-label="Price">
-                                <option value="usd">USD per Month</option>
-                                <option value="usd-sale">USD Sale</option>
-                            </select>
-                        </div>
-
-                        <button class="search-btn" type="submit" aria-label="Search properties"><i
-                                class="bi bi-search"></i></button>
-                    </form>
-                </div>
-            </header>
+      <div class="mt-4">
+        <div class="d-flex align-items-center justify-content-between mb-3">
+          <h3 style="font-family:Montserrat, sans-serif; font-weight:800; margin:0;">TOP PICKS</h3>
+          <div class="d-none d-sm-block muted">Showing best selling properties</div>
         </div>
 
-        <!-- STATS + TOP PICKS -->
-        <section id="picks" class="section" aria-label="Statistics and Top Picks">
-            <div class="row align-items-center gx-4">
-                <div class="col-lg-6 order-2 order-lg-1">
-                    <div class="d-lg-flex align-items-center gap-4">
-                        <div class="stats-grid" aria-hidden="false">
-                            <div class="stat-item">
-                                <div class="stat-num">1500+</div>
-                                <div class="stat-label">Project Finished</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-num">950+</div>
-                                <div class="stat-label">Global Customer</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-num">235+</div>
-                                <div class="stat-label">Ready Units</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-num">$50M+</div>
-                                <div class="stat-label">Generating Income</div>
-                            </div>
-                        </div>
+        <div class="pills-wrap" role="tablist" aria-label="property categories">
+          <button class="pill active" data-filter="all" role="tab" aria-selected="true">Top Sellers</button>
+          <button class="pill" data-filter="condo" role="tab">Condo</button>
+          <button class="pill" data-filter="villa" role="tab">Villa</button>
+          <button class="pill" data-filter="business" role="tab">Business</button>
+          <button class="pill" data-filter="warehouse" role="tab">Warehouse</button>
+          <button class="pill" data-filter="lease" role="tab">Lease</button>
+        </div>
 
-                        <div class="d-none d-lg-block ms-3 intro-copy">
-                            <h3 class="section-subtitle" style="font-weight:800;margin-bottom:10px;">Top Picks</h3>
-                            <p class="muted">Hand-picked premium homes — professional photos, curated recommendations
-                                for discerning buyers.</p>
-                        </div>
-                    </div>
+        <div class="cards-grid mt-4" aria-live="polite">
+          <article class="pf-card property-card condo" tabindex="0" data-category="condo"
+            aria-label="San Francisco condo">
+            <div class="pf-photo" style="background-image: url('./assets/img/hotel_img_1.jpg');"></div>
+            <div class="pf-overlay">
+              <div class="pf-top">
+                <div class="rating" aria-hidden="true">4.4 ★</div>
+                <button class="fav" aria-pressed="false" title="Save property"><i
+                    class="bi bi-heart"></i></button>
+              </div>
+              <div class="pf-info">
+                <div class="pf-title">San Francisco, CA</div>
+                <div class="pf-desc">3 beds, 2 baths, 1,800 sq ft · Modern design with rooftop terrace
                 </div>
+                <div class="pf-price">$1,450,000</div>
+              </div>
+            </div>
+          </article>
 
-                <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
-                    <div class="hero-feature-img rounded-lg">
-                        <img src="./assets/img/hotel_img_2.jpg" alt="feature house" />
-                    </div>
-                </div>
+          <article class="pf-card property-card villa" tabindex="0" data-category="villa"
+            aria-label="Austin villa">
+            <div class="pf-photo" style="background-image: url('./assets/img/hotel_img_2.jpg');"></div>
+            <div class="pf-overlay">
+              <div class="pf-top">
+                <div class="rating" aria-hidden="true">4.1 ★</div>
+                <button class="fav" aria-pressed="false" title="Save property"><i
+                    class="bi bi-heart"></i></button>
+              </div>
+              <div class="pf-info">
+                <div class="pf-title">Austin, TX</div>
+                <div class="pf-desc">4 beds, 3 baths, 2,400 sq ft · Contemporary style with spacious
+                  backyard</div>
+                <div class="pf-price">$725,000</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="pf-card property-card business" tabindex="0" data-category="business"
+            aria-label="Miami business condo">
+            <div class="pf-photo" style="background-image: url('./assets/img/hotel_img_3.jpg');"></div>
+            <div class="pf-overlay">
+              <div class="pf-top">
+                <div class="rating" aria-hidden="true">4.0 ★</div>
+                <button class="fav" aria-pressed="false" title="Save property"><i
+                    class="bi bi-heart"></i></button>
+              </div>
+              <div class="pf-info">
+                <div class="pf-title">Miami, FL</div>
+                <div class="pf-desc">2 beds, 2 baths, 1,200 sq ft · Oceanfront condo with panoramic
+                  views</div>
+                <div class="pf-price">$895,000</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDITOR'S CHOICE -->
+    <section class="editors-section section" aria-label="Editor's Choice">
+      <div class="d-flex align-items-center justify-content-between">
+        <div class="editors-heading">EDITOR'S CHOICE</div>
+      </div>
+
+      <div class="editors-row" aria-live="polite">
+        <div>
+          <div id="editorCard0" class="editor-card-large"
+            style="background-image: url('./assets/img/hotel_img_3.jpg');">
+            <div class="editor-copy-large">
+              <h4>Property Presentation</h4>
+              <p>Let us handle the daily operations of your property. We guarantee efficient maintenance
+                and increased profitability.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div id="editorCard1" class="editor-card-large"
+            style="background-image: url('./assets/img/hotel_img_4.jpg');">
+            <div class="editor-copy-large">
+              <h4>Leasing Solutions</h4>
+              <p>Explore our personalized rental services to find the perfect property match. We offer
+                access to high-quality homes in desirable areas.</p>
+            </div>
+          </div>
+
+          <div class="editor-nav-row" aria-hidden="false">
+            <button id="editorPrev" class="btn-circle solid" aria-label="previous editor"><i
+                class="bi bi-arrow-left"></i></button>
+            <button id="editorNext" class="btn-circle outline" aria-label="next editor"><i
+                class="bi bi-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO GALLERY -->
+    <section id="portfolio" class="section" aria-label="Portfolio Gallery">
+      <h3 style="font-family:Montserrat, sans-serif; font-weight:800; margin-bottom:12px;">EXPLORE OUR PORTFOLIO
+        GALLERY</h3>
+
+      <div class="portfolio-gallery">
+        <div class="portfolio-left">
+          <div class="small-card" style="background-image: url('./assets/img/hotel_img_1.jpg');"></div>
+          <div class="small-card" style="background-image: url('./assets/img/hotel_img_5.jpg');"></div>
+        </div>
+
+        <div class="big-card" style="background-image: url('./assets/img/hotel_img_2.jpg');"></div>
+      </div>
+    </section>
+
+    <!-- FINAL TESTIMONIAL (improved) -->
+    <section class="section" aria-label="Client testimonial">
+      <div class="testimonial-final">
+        <div>
+          <h3>Valuable Feedback That Speaks Volumes</h3>
+          <p>
+            At our company, client satisfaction is our top priority, and their feedback truly speaks
+            volumes. Find out why countless individuals trust us with their real estate requirements —
+            whether it's discovering their dream homes or making savvy investments. Read on to learn what
+            our clients have to share about their experience with us.
+          </p>
+
+          <div class="author-row" role="group" aria-label="testimonial author">
+            <div class="author-avatar" aria-hidden="true">
+              <img src="./assets/img/hotel_img_1.jpg" alt="John Smith avatar"
+                style="width:100%; height:100%; object-fit:cover;">
+            </div>
+            <div class="author-meta">
+              <div class="name">John Smith</div>
+              <div class="date">25 Mar, 2025</div>
+            </div>
+          </div>
+
+          <div class="testimonial-controls" role="group" aria-label="testimonial controls">
+            <button id="testPrev" class="nav-circle filled" aria-label="previous testimonial"><i
+                class="bi bi-arrow-left"></i></button>
+            <button id="testNext" class="nav-circle outline" aria-label="next testimonial"><i
+                class="bi bi-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="testimonial-image" aria-hidden="false">
+          <img id="testimonialImage" src="./assets/img/hotel_img_2.jpg" alt="client house"
+            style="width:100%; height:100%; object-fit:cover;">
+        </div>
+      </div>
+    </section>
+
+    <!-- BIG FOOTER -->
+    <footer class="big-footer" role="contentinfo" aria-label="Footer">
+      <div class="footer-grid">
+        <div class="footer-left">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:12px;">
+            <div>
+              <h6>Get in Touch</h6>
+              <p style="color:rgba(255,255,255,0.9); margin-top:8px;">1234 Maple Avenue, Suite
+                600<br />Rivertown, AZ 12345</p>
             </div>
 
-            <div class="mt-4">
-                <div class="d-flex align-items-center justify-content-between mb-3">
-                    <h3 style="font-family:Montserrat, sans-serif; font-weight:800; margin:0;">TOP PICKS</h3>
-                    <div class="d-none d-sm-block muted">Showing best selling properties</div>
-                </div>
-
-                <div class="pills-wrap" role="tablist" aria-label="property categories">
-                    <button class="pill active" data-filter="all" role="tab" aria-selected="true">Top Sellers</button>
-                    <button class="pill" data-filter="condo" role="tab">Condo</button>
-                    <button class="pill" data-filter="villa" role="tab">Villa</button>
-                    <button class="pill" data-filter="business" role="tab">Business</button>
-                    <button class="pill" data-filter="warehouse" role="tab">Warehouse</button>
-                    <button class="pill" data-filter="lease" role="tab">Lease</button>
-                </div>
-
-                <div class="cards-grid mt-4" aria-live="polite">
-                    <article class="pf-card property-card condo" tabindex="0" data-category="condo"
-                        aria-label="San Francisco condo">
-                        <div class="pf-photo" style="background-image: url('./assets/img/hotel_img_1.jpg');"></div>
-                        <div class="pf-overlay">
-                            <div class="pf-top">
-                                <div class="rating" aria-hidden="true">4.4 ★</div>
-                                <button class="fav" aria-pressed="false" title="Save property"><i
-                                        class="bi bi-heart"></i></button>
-                            </div>
-                            <div class="pf-info">
-                                <div class="pf-title">San Francisco, CA</div>
-                                <div class="pf-desc">3 beds, 2 baths, 1,800 sq ft · Modern design with rooftop terrace
-                                </div>
-                                <div class="pf-price">$1,450,000</div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="pf-card property-card villa" tabindex="0" data-category="villa"
-                        aria-label="Austin villa">
-                        <div class="pf-photo" style="background-image: url('./assets/img/hotel_img_2.jpg');"></div>
-                        <div class="pf-overlay">
-                            <div class="pf-top">
-                                <div class="rating" aria-hidden="true">4.1 ★</div>
-                                <button class="fav" aria-pressed="false" title="Save property"><i
-                                        class="bi bi-heart"></i></button>
-                            </div>
-                            <div class="pf-info">
-                                <div class="pf-title">Austin, TX</div>
-                                <div class="pf-desc">4 beds, 3 baths, 2,400 sq ft · Contemporary style with spacious
-                                    backyard</div>
-                                <div class="pf-price">$725,000</div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="pf-card property-card business" tabindex="0" data-category="business"
-                        aria-label="Miami business condo">
-                        <div class="pf-photo" style="background-image: url('./assets/img/hotel_img_3.jpg');"></div>
-                        <div class="pf-overlay">
-                            <div class="pf-top">
-                                <div class="rating" aria-hidden="true">4.0 ★</div>
-                                <button class="fav" aria-pressed="false" title="Save property"><i
-                                        class="bi bi-heart"></i></button>
-                            </div>
-                            <div class="pf-info">
-                                <div class="pf-title">Miami, FL</div>
-                                <div class="pf-desc">2 beds, 2 baths, 1,200 sq ft · Oceanfront condo with panoramic
-                                    views</div>
-                                <div class="pf-price">$895,000</div>
-                            </div>
-                        </div>
-                    </article>
-                </div>
+            <div class="d-none d-md-block" style="margin-left:auto;">
+              <div style="display:flex; gap:18px;">
+                <a href="#about" style="color:#fff; text-decoration:none;">About Us</a>
+                <a href="#services" style="color:#fff; text-decoration:none;">Our Services</a>
+                <a href="#careers" style="color:#fff; text-decoration:none;">Join Our Team</a>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!-- EDITOR'S CHOICE -->
-        <section class="editors-section section" aria-label="Editor's Choice">
-            <div class="d-flex align-items-center justify-content-between">
-                <div class="editors-heading">EDITOR'S CHOICE</div>
+          <div class="socials" aria-label="social media">
+            <button class="social-icon" title="Twitter / X" aria-label="Twitter"><i
+                class="bi bi-x"></i></button>
+            <button class="social-icon" title="Instagram" aria-label="Instagram"><i
+                class="bi bi-instagram"></i></button>
+            <button class="social-icon" title="LinkedIn" aria-label="LinkedIn"><i
+                class="bi bi-linkedin"></i></button>
+            <button class="social-icon" title="GitHub" aria-label="GitHub"><i
+                class="bi bi-github"></i></button>
+          </div>
+
+          <div class="footer-search" role="search" aria-label="Footer search">
+            <i class="bi bi-search" style="opacity:.85;"></i>
+            <input id="footerSearchInput" type="search" placeholder="Search..."
+              aria-label="Search the site">
+          </div>
+        </div>
+
+        <div>
+          <div style="display:flex; justify-content:flex-end;">
+            <div style="min-width:200px; margin-right:12px;">
+              <h6 style="margin-bottom:8px;">Our Services</h6>
+              <div style="display:flex; flex-direction:column; gap:8px;">
+                <a href="#" style="color:#fff; text-decoration:none;">Property Management</a>
+                <a href="#" style="color:#fff; text-decoration:none;">Leasing & Rentals</a>
+                <a href="#" style="color:#fff; text-decoration:none;">Renovation & Design</a>
+              </div>
             </div>
 
-            <div class="editors-row" aria-live="polite">
-                <div>
-                    <div id="editorCard0" class="editor-card-large"
-                        style="background-image: url('./assets/img/hotel_img_3.jpg');">
-                        <div class="editor-copy-large">
-                            <h4>Property Presentation</h4>
-                            <p>Let us handle the daily operations of your property. We guarantee efficient maintenance
-                                and increased profitability.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <div id="editorCard1" class="editor-card-large"
-                        style="background-image: url('./assets/img/hotel_img_4.jpg');">
-                        <div class="editor-copy-large">
-                            <h4>Leasing Solutions</h4>
-                            <p>Explore our personalized rental services to find the perfect property match. We offer
-                                access to high-quality homes in desirable areas.</p>
-                        </div>
-                    </div>
-
-                    <div class="editor-nav-row" aria-hidden="false">
-                        <button id="editorPrev" class="btn-circle solid" aria-label="previous editor"><i
-                                class="bi bi-arrow-left"></i></button>
-                        <button id="editorNext" class="btn-circle outline" aria-label="next editor"><i
-                                class="bi bi-arrow-right"></i></button>
-                    </div>
-                </div>
+            <div style="max-width:360px;">
+              <div class="footer-card" style="background-image:url('./assets/img/hotel_img_4.jpg');"
+                role="img" aria-label="Featured property"></div>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
 
-        <!-- PORTFOLIO GALLERY -->
-        <section id="portfolio" class="section" aria-label="Portfolio Gallery">
-            <h3 style="font-family:Montserrat, sans-serif; font-weight:800; margin-bottom:12px;">EXPLORE OUR PORTFOLIO
-                GALLERY</h3>
+      <div class="footer-bottom">
+        <div style="color:rgba(255,255,255,0.75)">© 2025 RealWorld Estates · All rights reserved</div>
+        <div style="display:flex; gap:12px;">
+          <a href="#" style="color:rgba(255,255,255,0.85); text-decoration:none;">Terms</a>
+          <a href="#" style="color:rgba(255,255,255,0.85); text-decoration:none;">Privacy</a>
+        </div>
+      </div>
+    </footer>
 
-            <div class="portfolio-gallery">
-                <div class="portfolio-left">
-                    <div class="small-card" style="background-image: url('./assets/img/hotel_img_1.jpg');"></div>
-                    <div class="small-card" style="background-image: url('./assets/img/hotel_img_5.jpg');"></div>
-                </div>
+  </main>
 
-                <div class="big-card" style="background-image: url('./assets/img/hotel_img_2.jpg');"></div>
-            </div>
-        </section>
-
-        <!-- FINAL TESTIMONIAL (improved) -->
-        <section class="section" aria-label="Client testimonial">
-            <div class="testimonial-final">
-                <div>
-                    <h3>Valuable Feedback That Speaks Volumes</h3>
-                    <p>
-                        At our company, client satisfaction is our top priority, and their feedback truly speaks
-                        volumes. Find out why countless individuals trust us with their real estate requirements —
-                        whether it's discovering their dream homes or making savvy investments. Read on to learn what
-                        our clients have to share about their experience with us.
-                    </p>
-
-                    <div class="author-row" role="group" aria-label="testimonial author">
-                        <div class="author-avatar" aria-hidden="true">
-                            <img src="./assets/img/hotel_img_1.jpg" alt="John Smith avatar"
-                                style="width:100%; height:100%; object-fit:cover;">
-                        </div>
-                        <div class="author-meta">
-                            <div class="name">John Smith</div>
-                            <div class="date">25 Mar, 2025</div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-controls" role="group" aria-label="testimonial controls">
-                        <button id="testPrev" class="nav-circle filled" aria-label="previous testimonial"><i
-                                class="bi bi-arrow-left"></i></button>
-                        <button id="testNext" class="nav-circle outline" aria-label="next testimonial"><i
-                                class="bi bi-arrow-right"></i></button>
-                    </div>
-                </div>
-
-                <div class="testimonial-image" aria-hidden="false">
-                    <img id="testimonialImage" src="./assets/img/hotel_img_2.jpg" alt="client house"
-                        style="width:100%; height:100%; object-fit:cover;">
-                </div>
-            </div>
-        </section>
-
-        <!-- BIG FOOTER -->
-        <footer class="big-footer" role="contentinfo" aria-label="Footer">
-            <div class="footer-grid">
-                <div class="footer-left">
-                    <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:12px;">
-                        <div>
-                            <h6>Get in Touch</h6>
-                            <p style="color:rgba(255,255,255,0.9); margin-top:8px;">1234 Maple Avenue, Suite
-                                600<br />Rivertown, AZ 12345</p>
-                        </div>
-
-                        <div class="d-none d-md-block" style="margin-left:auto;">
-                            <div style="display:flex; gap:18px;">
-                                <a href="#about" style="color:#fff; text-decoration:none;">About Us</a>
-                                <a href="#services" style="color:#fff; text-decoration:none;">Our Services</a>
-                                <a href="#careers" style="color:#fff; text-decoration:none;">Join Our Team</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="socials" aria-label="social media">
-                        <button class="social-icon" title="Twitter / X" aria-label="Twitter"><i
-                                class="bi bi-x"></i></button>
-                        <button class="social-icon" title="Instagram" aria-label="Instagram"><i
-                                class="bi bi-instagram"></i></button>
-                        <button class="social-icon" title="LinkedIn" aria-label="LinkedIn"><i
-                                class="bi bi-linkedin"></i></button>
-                        <button class="social-icon" title="GitHub" aria-label="GitHub"><i
-                                class="bi bi-github"></i></button>
-                    </div>
-
-                    <div class="footer-search" role="search" aria-label="Footer search">
-                        <i class="bi bi-search" style="opacity:.85;"></i>
-                        <input id="footerSearchInput" type="search" placeholder="Search..."
-                            aria-label="Search the site">
-                    </div>
-                </div>
-
-                <div>
-                    <div style="display:flex; justify-content:flex-end;">
-                        <div style="min-width:200px; margin-right:12px;">
-                            <h6 style="margin-bottom:8px;">Our Services</h6>
-                            <div style="display:flex; flex-direction:column; gap:8px;">
-                                <a href="#" style="color:#fff; text-decoration:none;">Property Management</a>
-                                <a href="#" style="color:#fff; text-decoration:none;">Leasing & Rentals</a>
-                                <a href="#" style="color:#fff; text-decoration:none;">Renovation & Design</a>
-                            </div>
-                        </div>
-
-                        <div style="max-width:360px;">
-                            <div class="footer-card" style="background-image:url('./assets/img/hotel_img_4.jpg');"
-                                role="img" aria-label="Featured property"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <div style="color:rgba(255,255,255,0.75)">© 2025 RealWorld Estates · All rights reserved</div>
-                <div style="display:flex; gap:12px;">
-                    <a href="#" style="color:rgba(255,255,255,0.85); text-decoration:none;">Terms</a>
-                    <a href="#" style="color:rgba(255,255,255,0.85); text-decoration:none;">Privacy</a>
-                </div>
-            </div>
-        </footer>
-
-    </main>
-
-    <!-- SCRIPTS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
